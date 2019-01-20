@@ -6,6 +6,10 @@ using Zoo.Interfaces;
 
 namespace Zoo.Classes
 {
+    /// <summary>
+    /// Concrete class.  It's derived from Land class
+    /// Interface included.  ICuddles interface.
+    /// </summary>
     public class TRex : Land, ICuddles, ITricks
     {
         public override bool Tail { get; set; } = true;
@@ -28,7 +32,7 @@ namespace Zoo.Classes
 
         public string Hug()
         {
-            throw new NotImplementedException();
+            return "I enjoy being hugged as I myself can not reach to hug others.  That makes me a sad T-Rex...";
         }
 
         public override string Speak()
@@ -43,7 +47,7 @@ namespace Zoo.Classes
 
         string ITricks.Perform()
         {
-            throw new NotImplementedException();
+            return "Watch me make a back flip.";
         }
     }
 }

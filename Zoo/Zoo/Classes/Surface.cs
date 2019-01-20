@@ -5,9 +5,12 @@ using Zoo.Classes;
 
 namespace Zoo.Classes
 {
+    /// <summary>
+    /// Abstract class.  Derived from Animal.  Its a parent class to Flying and Land classes.
+    /// </summary>
     public abstract class Surface : Animal
     {
-        public virtual bool Arms { get; set; }
+        public virtual bool Arms { get; set; } = true;
 
         public virtual int Legs { get; set; } = 8;
 

@@ -5,6 +5,9 @@ using Zoo.Classes;
 
 namespace Zoo.Classes
 {
+    /// <summary>
+    /// Abstract Class-> derived from Water Parent Class.
+    /// </summary>
     public abstract class Mammal : Water
     {
         public abstract bool Tail { get; set; }
