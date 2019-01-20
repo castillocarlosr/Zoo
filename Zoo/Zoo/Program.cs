@@ -35,7 +35,7 @@ namespace Zoo
             Console.WriteLine($"Location: {flyingSpider.Location}.");
             Console.WriteLine($"Feed Cost:${flyingSpider.FeedCost}.");
             Console.WriteLine($"# of Eyes: {flyingSpider.Eyes}.");
-            Console.WriteLine($"Are they Safe: {flyingSpider.Safe}.");
+            Console.WriteLine($"Are they Safe: {flyingSpider.Safe()}.");
             Console.WriteLine($"Flyer: {flyingSpider.Flyer()}.");
             Console.WriteLine($"Eat: {flyingSpider.Eat()}.");
             Console.WriteLine($"Speak: {flyingSpider.Speak()}.");

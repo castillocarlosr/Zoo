@@ -5,6 +5,9 @@ using Zoo.Classes;
 
 namespace Zoo.Classes
 {
+    /// <summary>
+    /// Concrete Class-> derived from Fish Parent Class.
+    /// </summary>
     public class DinoShark : Fish
     {
         public override bool Scales { get; set; } = true;

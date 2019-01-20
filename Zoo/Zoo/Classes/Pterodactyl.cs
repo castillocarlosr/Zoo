@@ -5,6 +5,9 @@ using Zoo.Classes;
 
 namespace Zoo.Classes
 {
+    /// <summary>
+    /// Concrete class.  Dervied from FLying class.
+    /// </summary>
     public class Pterodactyl : Flying
     {
         public override bool Tail { get; set; } = true;

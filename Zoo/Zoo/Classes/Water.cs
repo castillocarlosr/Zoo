@@ -5,9 +5,12 @@ using Zoo.Classes;
 
 namespace Zoo.Classes
 {
+    /// <summary>
+    /// Concrete Class.  Derived from Animal Class.  Its a parent class to Fish and Mammal class.
+    /// </summary>
     public abstract class Water : Animal
     {
-        public virtual int Tails { get; set; }
+        public virtual int Tails { get; set; } = 1;
 
         public abstract bool Packs { get; set; }
 

@@ -5,12 +5,18 @@ using Zoo.Classes;
 
 namespace Zoo.Classes
 {
-    class FlyingSpider : Flying
+    /// <summary>
+    /// Concrete Class.  Its derived from Flying Class.
+    /// </summary>
+    public class FlyingSpider : Flying
     {
         public override bool Tail { get; set; } = false;
         public override string Location { get; set; } = "Enclosed cages behind force field";
-        public override decimal FeedCost { get; set; } = 439.87m;
-        public override bool Safe { get; set; } = false;
+        public override decimal FeedCost { get; set; } = 688.25m;
+        public new bool Safe()
+        {
+            return false;
+        }
 
         public override string Eat()
         {

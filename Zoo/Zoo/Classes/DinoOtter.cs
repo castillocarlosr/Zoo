@@ -6,6 +6,10 @@ using Zoo.Interfaces;
 
 namespace Zoo.Classes
 {
+    /// <summary>
+    /// Concrete Class-> derived from Mammal Parent Class.
+    /// Includes the Interface Itricks
+    /// </summary>
     public class DinoOtter : Mammal, ITricks
     {
         public override bool Tail { get; set; } = true;
@@ -28,7 +32,7 @@ namespace Zoo.Classes
 
         public string Perform()
         {
-            throw new NotImplementedException();
+            return "Watch me perfrom a trick back flip";
         }
 
         public string Splash()
