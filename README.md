@@ -8,21 +8,21 @@ Lab 05
 ## Purpose:
 This is a console run app to work with classes and interfaces to demonstrate the 4 OOP principles.
 
-##The four princicples Object-Oriented Programing (OOP)
+## The four princicples Object-Oriented Programing (OOP)
 * Shows the 4 OOP
 * 1. Inheritance = This is where an derived class takes in "inheritance" the methods and properties of one abstract (parent) class.
 * 2. Abstraction = This indicates that it has missing implementation.  It's to be inheritaded and thus completed in a derived class.
 * 3. Polymorphism = Means having many forms.  An example used is in the interface class and virtual methods used to override.
 * 4. Encapsulation = It encloses items within a physical package.  This is done through access modifiers.
 
-##Interface
+## Interface
 - 1. Interface = It is a contract that all classes that inheriting the interface should follow.
 - 2. My interfaces are Itricks & ICuddle.  They are being implemented on the TREX, Dino-otter, and Mammal class.
 - 2a. Itricks has a property of FunTricks as boolean and Perform() method as a string.
 - 2b. ICuddle has a property of LovesHumans as boolean and Hug() method as a string.
 - 3. Diagram shows interface to the top left and implemented on the bottom right corner of the classes it's used on.
 
-##Summary
+## Summary
 - This is a console run app that displays all the animals currently in my private zoo.
 - All the parent and derived classes are labled.  Please look at the labels in the image provided above to follow:
 - 1. Parent and Derived classes.
